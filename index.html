@@ -1,32 +1,82 @@
-<section id="services" class="services">
-    <h2 class="heading">Our <span>Services</span></h2>
-    <div class="services-container">
-        <div class="services-box">
-            <i class='fas fa-code'></i>
-            <h3>Web Development</h3>
-            <p>Creating responsive and modern websites using HTML, CSS, and JavaScript.</p>
-        </div>
-        <div class="services-box">
-            <i class='fab fa-microsoft'></i>
-            <h3>.NET Development</h3>
-            <p>Building robust backend applications using C# and .NET frameworks.</p>
-        </div>
-        <div class="services-box">
-            <i class='fab fa-python'></i>
-            <h3>Python Automation</h3>
-            <p>Automating repetitive tasks and data handling using Python scripts.</p>
-        </div>
-    </div>
-</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ibkar Ahmad | Full Stack Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Ibkar<span>.</span></a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-<section id="contact" class="contact">
-    <h2 class="heading">Contact <span>Me!</span></h2>
-    <form action="#">
-        <div class="input-box">
-            <input type="text" placeholder="Full Name" required>
-            <input type="email" placeholder="Email Address" required>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, I'm</h3>
+            <h1>Ibkar Ahmad</h1>
+            <h3>And I'm a <span>.NET Developer</span></h3>
+            <p>Computer Science student from Lucknow, UP. Passionate about building robust backend systems and modern web designs.</p>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
         </div>
-        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
-        <input type="submit" value="Send Message" class="btn">
-    </form>
-</section>
+        <div class="home-img">
+            <div class="glowing-circle">
+                <span></span>
+                <span></span>
+                <div class="image">
+                    <img src="https://via.placeholder.com/400" alt="Ibkar Profile">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-content">
+            <h3>Computer Science Diploma Student</h3>
+            <p>Main Maharishi University of Information Technology, Lucknow se apna Diploma complete kar raha hoon (CGPA: 7.5). Maine .NET aur Python mein kaam kiya hai aur mujhe naye challenges pasand hain.</p>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-row">
+            <div class="skill-card"><i class="fab fa-microsoft"></i> <h3>.NET / C#</h3></div>
+            <div class="skill-card"><i class="fab fa-python"></i> <h3>Python</h3></div>
+            <div class="skill-card"><i class="fab fa-html5"></i> <h3>HTML/CSS</h3></div>
+            <div class="skill-card"><i class="fas fa-database"></i> <h3>SQL Server</h3></div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="projects-container">
+            <div class="project-box">
+                <img src="https://via.placeholder.com/300x200" alt="Project 1">
+                <div class="project-layer">
+                    <h4>Inventory Management</h4>
+                    <p>Built with .NET for real-time tracking.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 Ibkar Ahmad | Lucknow, India</p>
+    </footer>
+</body>
+</html>
